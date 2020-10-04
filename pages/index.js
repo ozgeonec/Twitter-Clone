@@ -1,14 +1,13 @@
-import React from "react";
-import Button from "../components/Button";
+import React from 'react'
+import Button from '../components/button'
 
 function HomePage() {
-    return (
-        <div>
-            <h1>Welcome to Next.js!</h1>
-            <Button>Hello</Button>
-        </div>
-
-    )
+  return (
+    <div>
+      <h1>Welcome to Next.js!</h1>
+      <Button>Hello</Button>
+    </div>
+  )
 }
 
 export default HomePage

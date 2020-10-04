@@ -1,8 +1,8 @@
-.icons{
-    display: grid;
-    align-items: center;
-    grid-template-columns: repeat(10, 1fr);
-    grid-gap: 10px;
-    font-size: 40px;
-    padding: 20px;
+.icons {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+  font-size: 40px;
+  padding: 20px;
 }

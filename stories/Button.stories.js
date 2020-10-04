@@ -1,35 +1,15 @@
-import React from 'react';
+import React from 'react'
 
-import Button from '../components/Button'
+import Button from '../components/button'
+import NavButton from '../components/nav-button'
+import Navigation from '../components/navigation'
 
 export default {
   title: 'Example/Button',
-  component: Button,
+  component: Button
+}
 
-};
-
- const Template = (args) => <Button {...args} />;
-
-
-// export const Primary = Template.bind({});
-// Primary.args = {
-//   primary: true,
-//   label: 'Button',
-// };
-//
-// export const Secondary = Template.bind({});
-// Secondary.args = {
-//   label: 'Button',
-// };
-//
-// export const Large = Template.bind({});
-// Large.args = {
-//   size: 'large',
-//   label: 'Button',
-// };
-//
-// export const Small = Template.bind({});
-// Small.args = {
-//   size: 'small',
-//   label: 'Button',
-// };
+const Template = (args) => <Button {...args} />
+export const Normal = () => <Button>Save</Button>
+export const Menu = () => <NavButton>Save</NavButton>
+export const Nav = () => <Navigation>Save</Navigation>
