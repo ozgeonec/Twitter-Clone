@@ -1,3 +1,6 @@
-.button{
-    background-color: #ccc;
+.navButton {
+  background-color: #ccc;
+  svg {
+    color: red;
+  }
 }

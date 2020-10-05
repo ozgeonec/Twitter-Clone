@@ -15,7 +15,7 @@ import NavButton from './nav-button'
 
 function Navigation() {
   return (
-    <nav className={styles.nav}>
+    <nav className={styles.navButton}>
       <NavButton>
         <Twitter />
       </NavButton>
