@@ -12,4 +12,4 @@ export default {
 const Template = (args) => <Button {...args} />
 export const Normal = () => <Button>Save</Button>
 export const Menu = () => <NavButton>Save</NavButton>
-export const Nav = () => <Navigation>Save</Navigation>
+export const Navi = () => <Navigation>Save</Navigation>

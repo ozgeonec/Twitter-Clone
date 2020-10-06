@@ -29,15 +29,15 @@ module.exports = {
       include: path.resolve(__dirname, '../components'),
       use: [
         'style-loader',
-        // {
-        //   loader: 'css-loader',
-        //   options: {
-        //     importLoaders: 1,
-        //     modules: true
-        //   }
-        // },
         {
-          loader: 'postcss-loader',
+          loader: 'css-loader',
+          options: {
+            importLoaders: 1,
+            modules: true
+          }
+        },
+        {
+          loader: require.resolve('postcss-loader'),
           options: {
             sourceMap: true,
             config: {
