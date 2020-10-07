@@ -1,7 +1,15 @@
 .navButton {
-  background-color: #ccc;
+  background-color: var(--c-text-color);
+  color: var(--c-primary);
+  padding: 10px;
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
   svg {
-    color: red;
+    font-size: 26px;
+  }
+  span{
+    margin-left: 20px;
   }
 }
 
