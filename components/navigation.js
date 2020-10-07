@@ -12,52 +12,53 @@ import {
   More
 } from './icons'
 import NavButton from './nav-button'
+import TitleBold from './title-bold'
 
-function Navigation() {
+function Navigation({ selectedKey }) {
   return (
     <nav className={styles.navButton}>
       <NavButton>
         <Twitter />
       </NavButton>
 
-      <NavButton>
+      <NavButton selected={selectedKey === 'home'}>
         <Home />
-        <span>Home</span>
+        <TitleBold>Home</TitleBold>
       </NavButton>
 
-      <NavButton>
+      <NavButton selected={selectedKey === 'explore'}>
         <Explore />
-        <span>Explore</span>
+        <TitleBold>Explore</TitleBold>
       </NavButton>
 
-      <NavButton>
+      <NavButton notify={17} selected={selectedKey === 'notification'}>
         <Notification />
-        <span>Notification</span>
+        <TitleBold>Notification</TitleBold>
       </NavButton>
 
-      <NavButton>
+      <NavButton selected={selectedKey === 'messages'}>
         <Messages />
-        <span>Messages</span>
+        <TitleBold>Messages</TitleBold>
       </NavButton>
 
-      <NavButton>
+      <NavButton selected={selectedKey === 'bookmark'}>
         <Bookmark />
-        <span>Bookmark</span>
+        <TitleBold>Bookmark</TitleBold>
       </NavButton>
 
-      <NavButton>
+      <NavButton selected={selectedKey === 'lists'}>
         <Lists />
-        <span>Lists </span>
+        <TitleBold>Lists </TitleBold>
       </NavButton>
 
-      <NavButton>
+      <NavButton selected={selectedKey === 'profile'}>
         <Profile />
-        <span>Profile</span>
+        <TitleBold>Profile</TitleBold>
       </NavButton>
 
-      <NavButton>
+      <NavButton selected={selectedKey === 'more'}>
         <More />
-        <span>More</span>
+        <TitleBold>More</TitleBold>
       </NavButton>
     </nav>
   )

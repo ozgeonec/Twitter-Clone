@@ -1,9 +1,11 @@
 import React from 'react'
 import styles from './button.module.css'
+import cn from 'classnames'
 
-function Button({ children, ...props }) {
+function Button({ children, className, ...props }) {
   return (
-    <button type="button" className={styles.button} {...props}>
+    //class ları merge ettik çünkü props style'ı eziyordu (paket:classnames ile)
+    <button type="button" className={cn(styles.button, className)} {...props}>
       {children}
     </button>
   )
