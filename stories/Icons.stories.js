@@ -8,7 +8,7 @@ export default {
 const Template = (args) => <Icons {...args} />
 export const Icon = () => (
   <div className={'icons'}>
-    <Icons.ArrowBottom style={{ color: 'red' }} />
+    <Icons.ArrowBottom />
     <Icons.Bookmark />
     <Icons.BookmarkFill />
     <Icons.Emoji />

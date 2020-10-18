@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   &:hover{
+    color: var(--c-theme);
     background-color: var(--c-theme-20);
   }
   svg {
@@ -37,4 +38,5 @@
   color: var(--c-primary);
   font-size: 11px;
   border: 1px solid var(--c-text-color);
+  transition: var(--fade);
 }
