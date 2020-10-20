@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { withKnobs, text, boolean, number } from '@storybook/addon-knobs'
 import Button from '../components/button'
 import NavButton from '../components/nav-button'
 import Navigation from '../components/navigation'
@@ -9,7 +9,8 @@ import ThemeButton from '../components/theme-button'
 
 export default {
   title: 'Example/Button',
-  component: Button
+  component: Button,
+  decorators: [withKnobs]
 }
 
 const Template = (args) => <Button {...args} />
@@ -29,4 +30,11 @@ export const NavButtonExample = () => (
     <TextTitle>Home</TextTitle>
   </NavButton>
 )
-export const Navi = () => <Navigation selectedKey="explore">Save</Navigation>
+export const Navi = () => {
+  const flat = boolean('Flat', false)
+  return (
+    <Navigation flat={flat} selectedKey="explore">
+      Save
+    </Navigation>
+  )
+}
