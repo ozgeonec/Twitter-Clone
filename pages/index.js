@@ -6,9 +6,9 @@ import CONST from '../constants'
 import Sidebar from '../components/col-sidebar'
 import Extra from '../components/col-extra'
 import Main from '../components/col-main'
+
 function HomePage() {
   const size = useWindowSize()
-
   return (
     <Layout>
       <Sidebar flat={size.width < CONST.DESKTOP_SIZE}>sidebar</Sidebar>

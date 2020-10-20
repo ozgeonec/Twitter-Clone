@@ -3,6 +3,7 @@
     padding-left: 15px;
     padding-right: 15px;
     height: 40px;
+    min-width: 40px;
     font-weight: bold;
     justify-content: center;
     background-color: var(--c-theme);
@@ -18,4 +19,5 @@
 }
 .big{
     height: 47px;
+    min-width: 47px;
 }

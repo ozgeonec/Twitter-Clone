@@ -14,7 +14,6 @@ export default {
 }
 
 const Template = (args) => <Button {...args} />
-export const Normal = () => <Button>Save</Button>
 export const Theme = () => (
   <div>
     <ThemeButton>Save</ThemeButton>
