@@ -1,6 +1,7 @@
 .navButton {
   position: relative;
   padding: 10px;
+  color: var(--c-primary);
 
   svg {
     font-size: 26px;
