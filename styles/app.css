@@ -10,8 +10,8 @@ html{
     font-size: 15px;
 }
 body {
-    color: var(--c-primary);
-    background-color: var(--c-text-color);
+    color: var(--c-text-color);
+    background-color: var(--c-primary);
     font-size: 1rem;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
