@@ -1,10 +1,10 @@
 import React from 'react'
 import cn from 'classnames'
 import styles from './profile-box.module.css'
-import Avatar from './avatar'
-import { ArrowBottom } from './icons'
-import Button from './button'
-import TextBody from './text-body'
+import Avatar from '../avatar/avatar'
+import { ArrowBottom } from '../button/icons'
+import Button from '../button/button'
+import TextBody from '../text/text-body'
 
 function ProfileBox({ flat = false, name = 'özge öneç', slug = 'ozgeonec' }) {
   return (

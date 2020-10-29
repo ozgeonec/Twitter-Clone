@@ -1,11 +1,11 @@
 import React from 'react'
 import { withKnobs, text, boolean, number } from '@storybook/addon-knobs'
-import Button from '../components/button'
-import NavButton from '../components/nav-button'
-import Navigation from '../components/navigation'
-import { Home } from '../components/icons'
-import TextTitle from '../components/text-title'
-import ThemeButton from '../components/theme-button'
+import Button from '../components/button/button'
+import NavButton from '../components/navigation/nav-button'
+import Navigation from '../components/navigation/navigation'
+import { Home } from '../components/button/icons'
+import TextTitle from '../components/text/text-title'
+import ThemeButton from '../components/tweet-button/theme-button'
 
 export default {
   title: 'Example/Button',

@@ -1,4 +1,4 @@
-import * as Icon from '../components/icons'
+import * as Icon from '../components/button/icons'
 import React from 'react'
 
 export default {

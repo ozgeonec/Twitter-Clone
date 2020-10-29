@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './nav-button.module.css'
-import Button from './button'
+import Button from '../button/button'
 import cn from 'classnames'
 function NavButton({ href, notify, selected, children, className, ...props }) {
   return (
