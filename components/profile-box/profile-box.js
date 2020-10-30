@@ -2,7 +2,7 @@ import React from 'react'
 import cn from 'classnames'
 import styles from './profile-box.module.css'
 import Avatar from '../avatar/avatar'
-import { ArrowBottom } from '../button/icons'
+import { ArrowBottom } from '../icons'
 import Button from '../button/button'
 import TextBody from '../text/text-body'
 

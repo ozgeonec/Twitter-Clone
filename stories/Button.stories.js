@@ -3,7 +3,7 @@ import { withKnobs, text, boolean, number } from '@storybook/addon-knobs'
 import Button from '../components/button/button'
 import NavButton from '../components/navigation/nav-button'
 import Navigation from '../components/navigation/navigation'
-import { Home } from '../components/button/icons'
+import { Home } from '../components/icons'
 import TextTitle from '../components/text/text-title'
 import ThemeButton from '../components/tweet-button/theme-button'
 

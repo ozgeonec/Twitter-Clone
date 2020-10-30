@@ -1,5 +1,5 @@
 import React from 'react'
-import * as Icons from '../components/button/icons'
+import * as Icons from '../components/icons'
 import Avatar from '../components/avatar/avatar'
 import ProfileBox from '../components/profile-box/profile-box'
 

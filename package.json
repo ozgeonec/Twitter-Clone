@@ -9,13 +9,14 @@
     "start": "next start",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -o public/ui",
-    "icon": "svgr icons -d components/button/icons --replace-attr-values \\\"#fff=currentColor\\\" --icon"
+    "icon": "svgr icons -d components/icons --replace-attr-values \\\\\\\"#fff=currentColor\\\\\\\" --icon"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "classnames": "^2.2.6",
+    "date-fns": "^2.16.1",
     "next": "^9.5.3",
     "postcss-preset-env": "^6.7.0",
     "react": "^16.13.1",

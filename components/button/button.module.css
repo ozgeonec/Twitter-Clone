@@ -12,3 +12,6 @@
     background-color: var(--c-theme-10);
   }
 }
+.iconButton{
+  padding: 8px;
+}
